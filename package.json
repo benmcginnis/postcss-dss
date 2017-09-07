@@ -9,7 +9,7 @@
   "author": "Ben McGinnis <mcginnisb@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "dss": "^1.0.4",
+    "dss": "git://github.com/DSSWG/DSS.git#b9b50a52a35280b6256b4e65c158ad637f4f1542",
     "postcss": "^6.0.11"
   },
   "devDependencies": {
@@ -18,7 +18,7 @@
     "jest": "^20.0.0"
   },
   "scripts": {
-    "test": "jest && eslint *.js"
+    "test": "rm -f testdata/* && jest && eslint *.js"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5",
