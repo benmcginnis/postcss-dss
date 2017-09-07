@@ -1,0 +1,29 @@
+{
+  "name": "postcss-dss",
+  "version": "1.0.0",
+  "description": "postcss-dss is a PostCSS Plugin that builds documentation based on the DSS Parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben McGinnis <mcginnisb@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dss": "^1.0.4",
+    "postcss": "^6.0.11"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
