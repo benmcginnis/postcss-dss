@@ -1,4 +1,4 @@
-# PostCSS-DSS
+# PostCSS-DSS ![build status](https://travis-ci.org/benmcginnis/postcss-dss.svg?branch=master)
 
 **PostCSS-DSS** is a **[PostCSS](http://postcss.org/)** plugin that generates UI documentation from CSS files based on the output from **[DSS](https://github.com/darcyclarke/dss)**.
 
